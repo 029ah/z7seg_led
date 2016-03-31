@@ -1,0 +1,31 @@
+#######################################
+# Syntax Coloring Map For z7seg_led
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+z7seg_led	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+z7seg_led_74hc595   KEYWORD2
+z7seg_led_74hc4094  KEYWORD2
+begin               KEYWORD2
+set_pattern         KEYWORD2
+set_brightness      KEYWORD2
+print               KEYWORD2
+begin_transfer      KEYWORD2
+end_transfer        KEYWORD2
+send_digit          KEYWORD2
+send_char           KEYWORD2
+send_digit          KEYWORD2
+send_char           KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
