@@ -1,6 +1,7 @@
 # z7seg_led library for Arduino
 
 This is a library to control 7-segment displays using SPI and 74hc595/74hc4094 shift registers.
+It also has customizable output pattern (default is Q0=A, Q1=B, .. , Q6=G, Q7=.)
 
 ## Hardware
 
@@ -41,6 +42,7 @@ void setup() {
     SPI.begin();
     display.begin();
     display.set_type(z7seg_led_74hc4094);
+    display.set_pattern("AFEDCBG."); // Mirrored pattern
 }
 
 void loop()
