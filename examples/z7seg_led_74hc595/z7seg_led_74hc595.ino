@@ -25,9 +25,10 @@ void setup() {
 
 void loop()
 {
+    static unsigned long counter = 0;
     char s[16];
 
-    sprintf(s, "%08d", millis())
+    sprintf(s, "%08d", counter++);
     display.print(s);
 
     delay(250);
