@@ -120,6 +120,7 @@ void z7seg_led::print(char *c) {
         } else {
             this->send_char(*c, true);
             c++;
+            if (!*c) break;
         }
         c++;
     }
